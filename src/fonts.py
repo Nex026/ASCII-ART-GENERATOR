@@ -13,7 +13,6 @@ def fonts(text):
     print(Style.RESET_ALL)
     
     font = input(str("Enter the font: "))
-    old = font
 
     print("[0] - Preview\n[1] - Select\n[99] - Go Back")
     option = input(str("Option: "))
